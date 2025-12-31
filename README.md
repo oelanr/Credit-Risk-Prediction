@@ -10,8 +10,6 @@ This project focuses on a **binary credit scoring** using **Exploratory Data Ana
 │── 📄 README.md          # Project documentation
 │── 📂 data               # Raw and processed datasets
 │── 📂 notebooks          # Jupyter Notebooks for EDA & modeling
-│── 📂 __pycache__        # Cached Python files
-│── 📂 .vscode            # VS Code configuration
 │── 📄 .dockerignore      # Docker ignore file
 │── 📄 .gitignore         # Git ignore file
 │── 📄 Dockerfile         # Docker setup
