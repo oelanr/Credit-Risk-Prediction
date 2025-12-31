@@ -1,76 +1,38 @@
-# Binary Credit Scoring: Exploratory Data Analysis & Modeling
+# Credit Risk Prediction
 
-## 📌 Project Overview
+Binary credit scoring model using machine learning to predict customer credit risk.
 
-This project focuses on a **binary credit scoring** using **Exploratory Data Analysis (EDA)** and **predictive modeling**. The goal is to analyze customer credit data, extract meaningful insights, and build a robust model to predict creditworthiness.
-
-## 📂 Project Structure
-```
-📁 credit_scoring_project
-│── 📄 README.md          # Project documentation
-│── 📂 data               # Raw and processed datasets
-│── 📂 notebooks          # Jupyter Notebooks for EDA & modeling
-│── 📄 .dockerignore      # Docker ignore file
-│── 📄 .gitignore         # Git ignore file
-│── 📄 Dockerfile         # Docker setup
-│── 📄 app.py             # Application script
-│── 📄 requirements.txt   # Dependencies
-```
-
-
-
-## 📊 Exploratory Data Analysis (EDA)
-
-The EDA phase includes:
-
-- **Data Cleaning:** Handling missing values, outlier detection, and feature engineering.
-- **Statistical Summary:** Descriptive statistics and data distribution analysis.
-- **Feature Relationships:** Correlations, visualizations, and trend analysis.
-- **Target Variable Insights:** Understanding factors influencing credit risk.
-
-## 🤖 Credit Scoring Model
-
-### **Modeling Approach**
-
-- **Feature Selection & Engineering**
-- **Baseline Models:** Logistic Regression, Decision Trees
-- **Advanced Models:** Random Forest, Logistic Regression, Gradient Boosting
-- **Hyperparameter Tuning & Optimization**
-- **Model Evaluation:** AUC-ROC, Precision-Recall, Confusion Matrix
-
-## ⚡ Installation & Usage
-
-### **Prerequisites**
-
-Ensure you have **Python 3.8+** and install dependencies:
+## 🚀 Quick Start
 
 ```bash
+# Install dependencies
 pip install -r requirements.txt
-```
 
-### **Run EDA Notebook**
-
-```bash
-jupyter notebook notebooks/eda.ipynb
-```
-
-### **Run Application**
-
-```bash
+# Run the application
 python app.py
 ```
 
-## 📈 Results & Insights
+## 📂 Project Structure
+```
+credit_scoring_project/
+├── data/           # Datasets
+├── notebooks/      # EDA & modeling notebooks
+├── app.py          # Main application
+└── requirements.txt
+```
 
-- Key features affecting credit risk.
-- Model performance comparison.
-- Business implications of predictions.
+## 🔍 Methodology
 
-## 🚀 (Possible ? 😆) Future Improvements
+**EDA**:  Data cleaning, feature engineering, correlation analysis  
+**Models**: Logistic Regression, Random Forest, Gradient Boosting  
+**Evaluation**: AUC-ROC, Precision-Recall, Confusion Matrix
 
-- Incorporating alternative data sources
-- Explainability with SHAP/LIME
+## 📊 Key Features
 
-## 🤝 Contributions
+- Comprehensive exploratory data analysis
+- Multiple ML models with hyperparameter tuning
+- Performance metrics and model comparison
 
-Contributions are welcome! Feel free to submit a PR or open an issue.
+## 🤝 Contributing
+
+Contributions welcome! Open an issue or submit a PR. 
